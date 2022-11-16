@@ -15,12 +15,12 @@ pip install webdriver_manager
 
 pip install packaging
 
-python3 youtube_scrapper.py --input input.json --output output.json
+python3 ytbscrapper.py --input input.json --output output.json
 
 ## Tests
 pip install pytest-cov
 
-python3 -m pytest test.py
+python3 -m pytest tests.py
 
 ## Contributors
 ALAMI Yassine, alamiyassi@cy-tech.fr
