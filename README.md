@@ -15,7 +15,7 @@ pip install webdriver_manager
 
 pip install packaging
 
-python3 ytbscrapper.py --input input.json --output output.json
+python3 ytb_scrapper.py --input input.json --output output.json
 
 ## Tests
 pip install pytest-cov
