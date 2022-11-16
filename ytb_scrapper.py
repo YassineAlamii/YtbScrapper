@@ -91,17 +91,7 @@ class Scrapper:
         time.sleep(1)
         self.soup = BeautifulSoup(self.driver.page_source, 'html.parser')
         
-        
-        
-        
- #soup = BeautifulSoup(driver.page_source, 'html.parser')
- 
- 
- 
- 
- 
- 
- 
+
 def main():
     parser = argparse.ArgumentParser(description='Input & Output json')
     parser.add_argument('--input', action='store')
